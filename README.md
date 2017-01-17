@@ -16,12 +16,10 @@ Node contains the description of the class node used in colorGreedy2.
 Valid_coloring is used to check the coloration of a graph.
 
 How to use the .jar file:
--From your labmachine, enter the directory where you have put  all the .jar files.
+-From your labmachine, enter the directory where you have put  all the .jar files and the datasetA.txt.
 
--Invoke java -jar colorGreedy.jar output.txt dataset.txt or java -jar colorGreedy2.jar output.txt dataset.txt to produce a coloration of the graphe. Here output.txt is the name of the file you will create , which will contain the coloration of the graph given by dataset.txt
+-Invoke java -jar colorGreedy.jar output.txt datasetA.txt or java -jar colorGreedy2.jar output.txt datasetA.txt to produce a coloration of the graphe. Here output.txt is the name of the file you will create , which will contain the coloration of the graph given by dataset.txt
 
--output.txt is created in your current directory. Invoke now  java -jar valid_coloring.jar dataset.txt output.txt to check if the coloration is correct. 
+-output.txt is created in your current directory. Invoke now  java -jar valid_coloring.jar datasetA.txt output.txt to check if the coloration of the datasetA given by output is correct. 
 
--Invoke java -jar valid_coloring.txt dataset.txt output.txt to check the coloration given by output.txt on the graph dataset.txt.
-
--colorGreedy2.jar uses the greedy method whereas colorChaitin.jar uses the Chaitin method and colorWelsh.jar the Wlesh method.
+-colorGreedy2.jar uses the greedy method whereas colorChaitin.jar uses the Chaitin method and colorWelsh.jar the Welsh method.
